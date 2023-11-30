@@ -1,0 +1,313 @@
+
+@font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    src: url(muli.woff2)}
+
+
+
+.header-container {
+    padding: 28px 0;
+    box-shadow: 0px 10px 10px rgba(65, 28, 107, 0.25);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    width: 101%;
+    position: relative;
+    background: #f7b5be9f9f9f9f9f;
+    height:80px;
+    justify-content:center;
+}
+
+.header-container .header-logo {
+    align-self: center;
+    margin-left: 25px ;
+    width: 60px ;
+    max-width: 100% ;
+    height: auto ;
+    position:relative;
+    border-radius: 10px 5px 10px 5px;}
+
+ .header-container p {
+        font-family: 'Blippo', fantasy ,sans-serif;
+        font-size: 20px ;
+        color:palevioletred;
+          left:70px;
+         text-decoration: none;
+
+     
+        }
+
+a{ 
+    text-decoration: none;
+
+}
+
+.sl-horizontal-liens
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: relative;
+
+}
+
+.section-container{
+display: flex;
+flex-direction: column;
+align-content: center;
+width: 100%;
+flex-wrap: wrap;
+
+}
+
+
+
+
+ul {
+   padding-top:100px ;
+    list-style-type: none;
+}
+.section-container>li {
+    
+
+    display: block;
+    float: left;
+}
+
+
+.btn-icon{
+    width:40px
+
+
+
+}
+
+
+.title1-login{
+    
+    text-align: center;
+    color: #333;
+    font-size: 28px ;
+    font-weight: bolder;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.title1-legend{
+    text-align: center;
+    color: #333;
+    font-size: 16px ;
+
+}
+
+.title1-form{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    position: relative;
+    width: 260px;
+    
+
+
+}
+
+.Form_user{
+
+  display: block;
+  padding: 12px 14px;
+  border-radius: 0;
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  line-height: normal;
+  resize: none;
+  margin-bottom: 10px;
+  }
+
+  
+  .Form_user:focus{
+    border-color: #737373;
+    outline: none;
+}
+
+.Form_button{
+background: #d7b4b5;
+    color: #fff;
+    width: 260px;
+    border-color: #e8c5c5;
+    -webkit-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+    position: relative;
+    padding: 14px 28px;
+    line-height: normal;
+    border: 1px solid transparent;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: .2em;
+    font-weight: 300;
+    font-style: normal;
+    cursor: pointer;
+}
+.Form_button_forget
+{
+    position: absolute;
+    bottom: 18px;
+    left:230px;
+    font-size: 13px;
+    color: #333;
+    transition: color .2s ease-in-out,opacity .2s ease-in-out;
+    padding: 0;
+    overflow: visible;
+    background: none;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.form-last{
+    text-align: center;
+    color: #333;
+    font-size: 16px ;
+    text-decoration: none;
+    margin-top: 10px;
+
+     
+}
+.form-last a{
+    color: #333;
+}
+#pipi , #lmao{
+    display: none;
+    padding-top: 200px;
+}
+
+#return-back , #create-account {
+transition: color .2s ease-in-out,opacity .2s ease-in-out;
+padding: 0;
+overflow: visible;
+background: none;
+border: none;
+border-radius: 0;
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/** csss formulaire */
+
+
+
+
+
+
+
+
+.contenair-form
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+}
+
+
+.form-element{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 14px;
+
+}
+ .form-title{
+    font-family: 'Muli', sans-serif;
+    color: #444444;
+    font-weight: 580;
+    width: 300px;
+    padding-left: 20px;
+    
+
+ }
+
+
+ .form-sub-label{
+    color: #999999;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 3px;
+    word-wrap: break-word;
+    min-height:13px;
+    font-family: 'Muli', sans-serif;
+
+ }
+
+ .box-form{
+
+    margin: 0;
+    border-color: #a6a6a6;
+    border-width: 1px;
+    padding: 4px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    box-shadow: none;
+
+}
+input , select{
+
+    font-family: 'Muli', sans-serif;
+    text-align: left;
+    color: rgb(100, 74, 85);
+}
+
+input:focus , select:focus
+{
+    box-shadow: 0 0 3px rgb(190, 22, 126);
+    outline-offset: 0px;
+    outline: none;  /* remove default outline hhh */
+}
+
+.radio-form , .C1 , textarea{
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Muli', sans-serif;
+    text-align: left;
+}
+
+
+input[type=radio] { 
+    outline:none }
+
+.form-submit-reset{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+.submit ,.reset {
+    width: 150px;
+    height: 30px;
+    background-color: #999999;
+    outline: none;
+    border: none;
+    font-family: 'Muli', sans-serif;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+
+
+}

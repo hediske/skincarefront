@@ -1,0 +1,44 @@
+.form-dropdown {
+    margin: 0;
+    border-color: #a6a6a6;
+    -webkit-appearance: menulist!important;
+    -moz-appearance: menulist!important;
+    appearance: menulist!important;
+    border-width: 1px;
+    padding: 4px 8px;
+    font-size: 14px;
+    background-image: none;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box; 
+    width:150px;
+    display: flex;
+    flex-direction: row;
+
+} 
+
+.label_name_down{
+
+    min-height: 13px;   
+    color: #464343; 
+    font-size: 0.786em;
+    margin-top: 3px;
+}
+
+.name_element{
+
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    display: flex;
+    flex-direction: row ;
+    gap: 20px;
+    align-items: center;
+}
+
+.labels{
+    display:flex;
+    flex-direction: column;
+
+}

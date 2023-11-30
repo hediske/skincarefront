@@ -1,0 +1,189 @@
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url(font-poppins.woff2) format('woff2');
+
+
+}
+
+.container-bottoms
+{   background: url(shop-wallpaper.jpg) no-repeat no-repeat ;
+    height: 760px;
+    background-size: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins';
+}
+
+.main-title{
+    padding-left: 50px;
+    color:darkred ;
+    padding-bottom: 40px;
+}
+
+
+.main-text{
+width: 70%;
+text-align: center;
+
+}
+
+
+.main-bottoms
+{
+
+    display: flex;
+    gap:50px;
+    align-items: center;
+}
+
+
+
+.a-item{
+    
+width: 200px;
+cursor: pointer;
+font-size:24px;
+outline: #F99FC9FF 1px solid ;
+background-color: #F7CED7FF;
+border-radius:5px;
+box-shadow: 0px 5px #F99FC9FF;
+text-align: center;
+font-family: 'Segoe UI';
+color: darkred;
+text-transform: uppercase;
+font-weight: bolder;
+
+}
+
+
+.bottom-elem{
+    text-decoration: none;
+    color: darkred;
+
+}
+
+
+
+.a-item:hover{
+
+    background-color: #2ecc71;
+    box-shadow: 0px 5px #1a6e3d;
+    color: white;
+}
+
+
+.main-bottoms .a-item:active {
+        transform: translateY(4px);
+      }
+
+/* SHOP /////////////////*/
+
+.container-shop{
+    margin-top: 300px;
+    margin-bottom: 500px;
+  }
+
+.cat-produit{
+
+    display:flex;
+    flex-direction: column;
+
+}
+
+
+.Image-prod{
+
+    height: 300px;
+    width:250px;
+}
+
+.full-prod{
+    margin-top: 200px;
+    display: flex;
+    align-self: center;
+
+}
+
+.Name-elem{
+    font-family:'Poppins' ;
+    text-align: center;
+    width: 150px;
+    height:150px ;
+
+}
+
+.prod-elem{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cat-titre{
+    padding-bottom: 100px;
+    text-align: center;
+    color:darkred ;
+    font-family: 'Poppins';
+    font-size: 40px;
+}
+
+
+.Price-elem
+{
+    font-size: 16px;
+    color: darkblue;
+}
+
+.divider-titre
+
+{   
+    padding-top: 350px;
+    width: 1000px;
+    height: 110px;
+
+}
+
+.produit-conteneur{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.selector-item{
+    cursor: pointer;
+    font-size:20px;
+    outline: none ;
+    background-color: rgb(51, 8, 65);
+    text-align: center;
+    width:50px;
+    height:50px;
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 14px;
+}
+
+.select-page{
+    padding-top: 50px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    font-family: 'Poppins';
+
+}
+
+.selector-item  p {
+    padding-bottom:0px;
+}
+
+.selector-item:hover{
+
+    background-color:red ;
+}
